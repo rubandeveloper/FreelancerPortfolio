@@ -1,0 +1,59 @@
+@keyframes flotting-logo-leftup {
+    from {
+        transform: translateX(0px) translateY(2.1px) scale(1.0315) rotate(-2.1deg) rotateX(0deg) rotateY(0deg) translateZ(0px) rotate(10deg);
+    }
+
+    50% {
+        transform: translateX(0px) translateY(18.928px) scale(1.28392) rotate(-18.928deg) rotateX(0deg) rotateY(0deg) translateZ(0px) rotate(10deg);
+    }
+
+    to {
+        transform: translateX(0px) translateY(2.1px) scale(1.0315) rotate(-2.1deg) rotateX(0deg) rotateY(0deg) translateZ(0px) rotate(10deg);
+    }
+}
+
+@keyframes flotting-logo-leftdown {
+    from {
+        transform:
+            translateX(0px) translateY(-2.096px) scale(1.03144) rotate(2.096deg) rotateX(0deg) rotateY(0deg) translateZ(0px) rotate(-10deg)
+    }
+
+    50% {
+        transform: translateX(0px) translateY(-20.968px) scale(1.36952) rotate(17.968deg) rotateX(0deg) rotateY(0deg) translateZ(0px) rotate(-10deg);
+    }
+
+    to {
+        transform: translateX(0px) translateY(-2.096px) scale(1.03144) rotate(2.096deg) rotateX(0deg) rotateY(0deg) translateZ(0px) rotate(-10deg)
+    }
+}
+
+@keyframes flotting-logo-rightup {
+    from {
+        transform: translateX(0px) translateY(-0.228px) scale(1.3) rotate(-0.228deg) rotateX(0deg) rotateY(0deg) translateZ(0px) rotate(10deg);
+    }
+
+    50% {
+
+        transform: translateX(0px) translateY(-20.436px) scale(1.87654) rotate(-18.436deg) rotateX(0deg) rotateY(0deg) translateZ(0px) rotate(10deg)
+    }
+
+    to {
+        transform: translateX(0px) translateY(-0.228px) scale(1.3) rotate(-0.228deg) rotateX(0deg) rotateY(0deg) translateZ(0px) rotate(10deg);
+    }
+}
+
+@keyframes flotting-logo-rightdown {
+    from {
+        transform: translateX(0px) translateY(2.22px) scale(1.2) rotate(-2.22deg) rotateX(0deg) rotateY(0deg) translateZ(0px);
+
+    }
+
+    50% {
+
+        transform: translateX(0px) translateY(18.032px) scale(1.57654) rotate(-18.032deg) rotateX(0deg) rotateY(0deg) translateZ(0px)
+    }
+
+    to {
+        transform: translateX(0px) translateY(2.22px) scale(1.2) rotate(-2.22deg) rotateX(0deg) rotateY(0deg) translateZ(0px);
+    }
+}

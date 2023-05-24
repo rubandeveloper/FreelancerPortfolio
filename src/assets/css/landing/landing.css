@@ -1,0 +1,278 @@
+@import url(./animations.css);
+
+.project-landing-section {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-landing-section .landing-content-main {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 30px;
+}
+
+.project-landing-section .landing-profile-section {
+
+    width: 462px;
+    height: 192px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.project-landing-section .landing-profile-section .profile-flotting-logos-main {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+}
+
+.project-landing-section .landing-profile-section .profile-flotting-logos {
+
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+}
+
+.project-landing-section .landing-profile-section .profile-flotting-logos .flotting-icon {
+    width: 40px;
+    height: 30px;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.project-landing-section .landing-profile-section .profile-flotting-logos .flotting-icon-leftup {
+    position: absolute;
+    top: 15px;
+    left: 29px;
+
+    animation-name: flotting-logo-leftup;
+}
+
+.project-landing-section .landing-profile-section .profile-flotting-logos .flotting-icon-leftdown {
+    position: absolute;
+    bottom: 44px;
+    left: 70px;
+    animation-name: flotting-logo-leftdown;
+}
+
+.project-landing-section .landing-profile-section .profile-flotting-logos .flotting-icon-rightup {
+    position: absolute;
+    top: 41px;
+    left: 340px;
+    animation-name: flotting-logo-rightup;
+}
+
+.project-landing-section .landing-profile-section .profile-flotting-logos .flotting-icon-rightdown {
+    position: absolute;
+    bottom: 75px;
+    left: 350px;
+    animation-name: flotting-logo-rightdown;
+}
+
+
+.project-landing-section .landing-profile-section .profile-flotting-logos .flotting-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.project-landing-section .landing-profile-section .profile-image {
+
+    width: 140px;
+    height: 140px;
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: perspective(1200px);
+    position: relative;
+}
+
+.project-landing-section .landing-profile-section .profile-image img {
+    pointer-events: none;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-position: center;
+    object-fit: cover;
+    image-rendering: auto;
+}
+
+.project-landing-section .landing-detials-section {
+
+    width: 100%;
+    height: min-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+}
+
+.project-landing-section .landing-detials-section .landing-name-section {
+
+    white-space: pre-wrap;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-size: 40px;
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    background-image: linear-gradient(280deg, var(--secondary-color, rgb(200, 0, 255)) 0%, var(--primary-color, rgb(51, 92, 255)) 100%);
+
+}
+
+.project-landing-section .landing-detials-section .landing-name-section strong {
+
+    font-weight: bolder;
+
+}
+
+.project-landing-section .landing-detials-section .landing-designation-section {
+
+    word-break: break-word;
+    word-wrap: break-word;
+    font-size: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--dark-color);
+}
+
+.project-landing-section .landing-detials-section .landing-description-section {
+
+    word-break: break-word;
+    word-wrap: break-word;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--gray-color);
+
+    max-width: 800px;
+}
+
+.project-landing-section .landing-active-button {
+
+    width: auto;
+    height: 40px;
+    background: linear-gradient(280deg, var(--secondary-color, rgb(200, 0, 255)) 0%, var(--primary-color, rgb(51, 92, 255)) 100%);
+    border-radius: 48px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.project-landing-section .landing-active-button:hover {
+    box-shadow:
+        rgba(200, 0, 255, 0.73) 0px 0.59714px 0.59714px -0.9375px,
+        rgba(200, 0, 255, 0.69) 0px 1.81088px 1.81088px -1.875px,
+        rgba(200, 0, 255, 0.592) 0px 4.78699px 4.78699px -2.8125px,
+        rgba(200, 0, 255, 0.25) 0px 15px 15px -3.75px;
+}
+
+.project-landing-section .landing-active-button .item-label {
+
+
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.project-landing-section .landing-active-button .item-icon {
+
+    width: 16px;
+    height: 16px;
+    margin-left: .5rem;
+}
+
+@media (max-width: 809px) {
+    .project-landing-section .landing-profile-section {
+        height: 150px;
+        width: 360px;
+    }
+
+    .project-landing-section .landing-content-main {
+        padding: 0 16px;
+        gap: 20px;
+    }
+
+    .project-landing-section .landing-detials-section .landing-name-section {
+        font-size: 26px;
+    }
+
+    .project-landing-section .landing-detials-section .landing-designation-section {
+        font-size: 24px;
+    }
+
+    .project-landing-section .landing-detials-section {
+        gap: 20px;
+    }
+
+    .project-landing-section .landing-profile-section .profile-flotting-logos .flotting-icon-leftup {
+        left: 39px;
+        top: 19px;
+    }
+
+    .project-landing-section .landing-profile-section .profile-flotting-logos .flotting-icon-leftdown {
+        left: 60px;
+        bottom: 24px;
+    }
+
+    .project-landing-section .landing-profile-section .profile-flotting-logos .flotting-icon-rightup {
+        left: 260px;
+    }
+
+    .project-landing-section .landing-profile-section .profile-flotting-logos .flotting-icon-rightdown {
+        left: 290px;
+        bottom: 45px;
+    }
+
+
+}
+
+@media (max-width: 1199px) {
+    .project-landing-section .landing-detials-section {
+        max-width: unset;
+    }
+}
