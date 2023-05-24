@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/FreelancerPortfolio/static/css/main.fb568900.css",
-    "main.js": "/FreelancerPortfolio/static/js/main.ee0f04bc.js",
-    "static/media/work2.png": "/FreelancerPortfolio/static/media/work2.85e86a9733b99447a325.png",
-    "static/media/portfolio.png": "/FreelancerPortfolio/static/media/portfolio.ad93bd26222a06627d01.png",
-    "static/media/full_profile.png": "/FreelancerPortfolio/static/media/full_profile.f1e0fbb320a7b93b0c23.png",
-    "static/media/work1.png": "/FreelancerPortfolio/static/media/work1.65461e04707382bcb4cc.png",
-    "static/media/vr_shop.png": "/FreelancerPortfolio/static/media/vr_shop.27e628a6853881cd966a.png",
-    "static/media/logo_light.png": "/FreelancerPortfolio/static/media/logo_light.807448fff30a60d477ba.png",
-    "static/media/logo_vertical.png": "/FreelancerPortfolio/static/media/logo_vertical.d41fa69400be13799561.png",
-    "static/media/web_scrapper.png": "/FreelancerPortfolio/static/media/web_scrapper.a49d85aad707b825ca22.png",
-    "static/media/finance_erp.png": "/FreelancerPortfolio/static/media/finance_erp.769cd4272dca859376df.png",
-    "static/media/electronjs.png": "/FreelancerPortfolio/static/media/electronjs.e22ebc8c0065f86e0196.png",
-    "static/media/profile.jpg": "/FreelancerPortfolio/static/media/profile.d8a61eb8c07191608770.jpg",
-    "static/media/reactjs.png": "/FreelancerPortfolio/static/media/reactjs.a70431569a522bf2f84d.png",
-    "static/media/logo_small.png": "/FreelancerPortfolio/static/media/logo_small.38443f747e075034ff36.png",
-    "static/media/nodejs.png": "/FreelancerPortfolio/static/media/nodejs.0e988dd56b47e8bd4101.png",
-    "index.html": "/FreelancerPortfolio/index.html",
-    "main.fb568900.css.map": "/FreelancerPortfolio/static/css/main.fb568900.css.map",
-    "main.ee0f04bc.js.map": "/FreelancerPortfolio/static/js/main.ee0f04bc.js.map"
+    "main.css": "/static/css/main.fb568900.css",
+    "main.js": "/static/js/main.e0506007.js",
+    "static/media/work2.png": "/static/media/work2.85e86a9733b99447a325.png",
+    "static/media/portfolio.png": "/static/media/portfolio.ad93bd26222a06627d01.png",
+    "static/media/full_profile.png": "/static/media/full_profile.f1e0fbb320a7b93b0c23.png",
+    "static/media/work1.png": "/static/media/work1.65461e04707382bcb4cc.png",
+    "static/media/vr_shop.png": "/static/media/vr_shop.27e628a6853881cd966a.png",
+    "static/media/logo_light.png": "/static/media/logo_light.807448fff30a60d477ba.png",
+    "static/media/logo_vertical.png": "/static/media/logo_vertical.d41fa69400be13799561.png",
+    "static/media/web_scrapper.png": "/static/media/web_scrapper.a49d85aad707b825ca22.png",
+    "static/media/finance_erp.png": "/static/media/finance_erp.769cd4272dca859376df.png",
+    "static/media/electronjs.png": "/static/media/electronjs.e22ebc8c0065f86e0196.png",
+    "static/media/profile.jpg": "/static/media/profile.d8a61eb8c07191608770.jpg",
+    "static/media/reactjs.png": "/static/media/reactjs.a70431569a522bf2f84d.png",
+    "static/media/logo_small.png": "/static/media/logo_small.38443f747e075034ff36.png",
+    "static/media/nodejs.png": "/static/media/nodejs.0e988dd56b47e8bd4101.png",
+    "index.html": "/index.html",
+    "main.fb568900.css.map": "/static/css/main.fb568900.css.map",
+    "main.e0506007.js.map": "/static/js/main.e0506007.js.map"
   },
   "entrypoints": [
     "static/css/main.fb568900.css",
-    "static/js/main.ee0f04bc.js"
+    "static/js/main.e0506007.js"
   ]
 }
