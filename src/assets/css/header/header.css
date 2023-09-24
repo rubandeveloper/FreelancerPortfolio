@@ -1,0 +1,239 @@
+@import url(./animation.css);
+
+.project-header-section {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+
+    background: #fff;
+}
+
+.project-header-section .header-content-main {
+
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Header left section */
+
+.project-header-section .header-content-left {
+
+    width: max-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.project-header-section .content-left-item {
+
+    font-style: var(--framer-font-style, normal);
+    font-weight: 700;
+    color: var(--dark-color);
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+.project-header-section .content-left-item h2 {
+    font-size: 16px;
+
+}
+
+/* ENd Header left section */
+
+/* Header right section */
+.project-header-section .header-content-right {
+    width: max-content;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project-header-section .content-righ-main {
+    width: max-content;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project-header-section .content-left-toggle-btn {
+    width: 24px;
+    height: max-content;
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+
+    transition: all .25s;
+}
+
+.project-header-section .content-left-toggle-btn-active {
+    display: flex !important;
+}
+
+
+.project-header-section .content-left-toggle-btn span {
+    width: 100%;
+    height: 2px;
+    background: var(--gray-color);
+    margin: .15rem 0;
+    border-radius: 50px;
+}
+
+
+
+.project-header-section .content-right-items {
+
+    width: 460px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-header-section .content-right-item {
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: var(--back-color);
+    font-size: 15px;
+    word-break: break-word;
+    word-wrap: break-word;
+    transition: all .2s;
+}
+
+.project-header-section .content-right-item:hover {
+    color: var(--primary-color);
+}
+
+.project-header-section .header-get_in_touch-btn {
+    padding: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+    border-radius: 50px;
+
+    border: 1px solid var(--gray-color);
+}
+
+.project-header-section .content-right-item .item-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.project-header-section .content-right-item .item-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 650px) {
+
+    .project-header-section {
+
+        height: max-content;
+
+    }
+
+    .project-header-section .header-content-left {
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+
+    .project-header-section .content-right-items {
+        display: none;
+        transition: all .3s;
+    }
+
+    .project-header-section .content-right-items-active {
+        display: flex !important;
+        animation-name: header-menu-item;
+        animation-duration: .6s;
+
+    }
+
+    .project-header-section .content-left-toggle-btn {
+        display: flex;
+    }
+
+    .project-header-section .content-left-toggle-btn span {
+        transition: .3s;
+    }
+
+    .project-header-section .content-left-toggle-btn-clicked {
+        display: flex;
+        position: relative;
+    }
+
+    .project-header-section .content-left-toggle-btn-clicked span:first-child {
+
+
+        position: absolute;
+
+        transform: rotate(45deg);
+        transform-origin: 50% 50% 0px;
+        top: calc(50% - 2px / 2);
+        left: calc(50% - 24px / 2);
+        will-change: transform;
+    }
+
+    .project-header-section .content-left-toggle-btn-clicked span:nth-child(2) {
+        transform: scale(0);
+    }
+
+    .project-header-section .content-left-toggle-btn-clicked span:last-child {
+        transform: rotate(45deg);
+        position: absolute;
+        bottom: unset;
+        top: calc(50% - 2px / 2);
+        transform: rotate(-45deg);
+        transform-origin: 50% 50% 0px;
+        will-change: transform;
+    }
+
+    .project-header-section .header-content-main {
+
+        flex-direction: column;
+
+    }
+
+    .project-header-section .header-content-right {
+        width: 100%;
+
+        flex-direction: column;
+    }
+
+    .project-header-section .content-right-items {
+        margin-top: 2rem;
+        width: 100% !important;
+        flex-direction: column;
+    }
+
+    .project-header-section .content-right-items .content-right-item {
+        width: 100%;
+        margin: .5rem 0;
+    }
+}
+
+/* End Header right section */

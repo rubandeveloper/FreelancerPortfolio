@@ -1,0 +1,134 @@
+.project-contact-section {
+
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 100px 40px;
+
+
+}
+
+.project-contact-section .contact-content-main {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 60px;
+}
+
+
+.project-contact-section .contact-content-main .content-title {
+
+    word-break: break-word;
+    word-wrap: break-word;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    background-image: linear-gradient(280deg, var(--secondary-color, rgb(200, 0, 255)) 0%, var(--primary-color, rgb(51, 92, 255)) 100%);
+}
+
+.project-contact-section .contact-content-main .content-title strong {
+
+    font-weight: bolder;
+}
+
+.project-contact-section .content-contact-detials {
+
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.project-contact-section .content-contact-detials .content-contact-message {
+
+    font-size: 16px;
+    color: var(--gray-color);
+}
+
+.project-contact-section .content-contact-detials .content-contact-mail {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--dark-color);
+}
+
+.project-contact-section .content-contact-detials .content-contact-buttons {
+
+    width: max-content;
+    height: max-content;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+.project-contact-section .content-contact-detials .content-contact-btn {
+
+    width: max-content;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    border-radius: 1000px;
+    border:1.5px solid var(--dark-color);
+    padding: 0 1rem;
+}
+.project-contact-section .content-contact-detials .content-contact-btn {
+
+    width: max-content;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    border-radius: 1000px;
+    border:1.5px solid var(--dark-color);
+    padding: 0 1rem;
+    transition: all .25s;
+}
+.project-contact-section .content-contact-detials .content-contact-btn .icon{
+    margin-top: 5px;
+}
+.project-contact-section .content-contact-detials .content-contact-btn:hover{
+    background: linear-gradient(280deg, var(--secondary-color, rgb(200, 0, 255)) 0%, var(--primary-color, rgb(51, 92, 255)) 100%);
+    color: #fff;
+    border-color: #fff;
+}
+.project-contact-section .content-contact-detials .content-contact-btn:hover .icon svg path,
+.project-contact-section .content-contact-detials .content-contact-btn:hover .icon svg circle{
+    fill: #fff;
+}
+@media only screen and (max-width: 850px) {
+
+
+    .project-contact-section {
+
+        padding: 60px 16px;
+
+    }
+
+    .project-contact-section .contact-content-main .content-title {
+        font-size: 26px;
+    }
+}
