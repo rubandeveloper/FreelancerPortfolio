@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7f8c4898.css",
+    "main.js": "/static/js/main.c147b6b9.js",
+    "static/media/full_profile.png": "/static/media/full_profile.b0bb356a5e6a127f36a8.png",
+    "static/media/work2.png": "/static/media/work2.85e86a9733b99447a325.png",
+    "static/media/portfolio.png": "/static/media/portfolio.ad93bd26222a06627d01.png",
+    "static/media/work1.png": "/static/media/work1.65461e04707382bcb4cc.png",
+    "static/media/vr_shop.png": "/static/media/vr_shop.27e628a6853881cd966a.png",
+    "static/media/logo_light.png": "/static/media/logo_light.807448fff30a60d477ba.png",
+    "static/media/logo_vertical.png": "/static/media/logo_vertical.d41fa69400be13799561.png",
+    "static/media/profile.png": "/static/media/profile.cb61d205bc2197760ff5.png",
+    "static/media/web_scrapper.png": "/static/media/web_scrapper.a49d85aad707b825ca22.png",
+    "static/media/finance_erp.png": "/static/media/finance_erp.769cd4272dca859376df.png",
+    "static/media/electronjs.png": "/static/media/electronjs.e22ebc8c0065f86e0196.png",
+    "static/media/reactjs.png": "/static/media/reactjs.a70431569a522bf2f84d.png",
+    "static/media/logo_small.png": "/static/media/logo_small.38443f747e075034ff36.png",
+    "static/media/nodejs.png": "/static/media/nodejs.0e988dd56b47e8bd4101.png",
+    "index.html": "/index.html",
+    "main.7f8c4898.css.map": "/static/css/main.7f8c4898.css.map",
+    "main.c147b6b9.js.map": "/static/js/main.c147b6b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f8c4898.css",
+    "static/js/main.c147b6b9.js"
+  ]
+}
